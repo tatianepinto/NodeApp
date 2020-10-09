@@ -1,0 +1,260 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+  
+  body {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Montserrat', Arial, sans-serif;
+  } 
+  
+  /* Style the header */
+  header {
+    /* background-color: #666; */
+    /* padding: 30px; */
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+  .line {
+    /* height: 0.5px; */
+    /* border-bottom: 0.5px solid lightgray; */
+    /* height: 1px; */
+    margin: 13px 7px 3px 7px;
+    /* border-top:1px solid lightgray; */
+    border-bottom:0.5px solid lightgray;
+  }
+
+  .header-img-logo{
+    border-bottom: 0.5px solid lightgray;
+    border-right: 0.5px solid lightgray;
+    float: left;
+    width: 17%;
+    /* position: relative; */
+  }
+  .block-img-logo{
+    float: left;
+    padding-left: 16px;
+    padding-top: 2px;
+  }
+
+  .header-img-logout{
+    /* float: right; */
+    width: 83%; 
+    height: 45.5px;
+    overflow: auto;
+    box-shadow: 3.5px 5px 8px lightgray;
+    /* border: 3px solid red; */
+    /* display: block;  */
+    /* border-bottom: 0.5px solid lightgray; */
+    /* align-content: flex-end; */
+  }
+  .block-img-logout{
+    float: right;
+    /* border: 3px solid red; */
+    padding-right: 71px;
+  }
+  .img-logout img {
+    float: right;
+    width: 24px;
+    height: 24px;
+  }
+
+  /* not used */
+  #gray-gradient {
+    /* float: bottom; */
+    height: 5px;
+    margin-top: 45px;
+    /* background-color: #f1f1f1; */
+    background-image: linear-gradient(#ccc, #f1f1f1);
+  }
+
+  .img-logo {
+      align-items: initial;
+      width: 90px;
+  }
+  .img-logo-client {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0 5px 0;
+  }
+
+  .block-client-id {
+    text-align: center;
+    /* width: 187px; */
+    /* line-height: 120%; */
+  }
+  .name-client{
+    font-size: 16px;
+  }
+  .type-client{
+    font-size: 13px;
+    font-weight: 350;
+  }
+  .title-section{
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+
+  .container { 
+    height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    /* border: 3px solid black;  */
+  }
+  
+  .block-button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  .button {
+    background-color: white; 
+    border: none;
+    box-shadow: 1px 3px 14px lightgray;
+    /* color: white; */
+    padding: 8px 12px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 17%;
+    border-right: 0.5px solid lightgray;
+    height: 800px;
+    /* background: #ccc; */
+    /* padding: 20px; */
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .sidebar {
+    width: 17%;
+    position: fixed;
+    z-index: 1;
+    top: 218px;
+    left: 0;
+    /* background-color: #111; */
+    overflow-x: hidden;
+    padding-top: 16px; 
+    /* border-right: 0.5px solid lightgray; */
+  }
+
+  /* icons */
+  .box {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 19px;
+    font-weight: 350;
+  }
+  .yellow-box {
+    background-color: #f1f1f1;
+    border-left: 4px solid #FFC300;
+  }
+  .name-menu {
+    padding-left: 10px;
+  }
+  
+  article {
+    float: right;
+    padding: 35px;
+    width: 83%;
+    /* background-color: #f1f1f1; */
+    height: 300px; /* only for demonstration, should be removed */
+  }
+
+  .influencer-box {
+    /* float: left; */
+    width: 47%;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-shadow: 1px 1px 8px #e2e2e2;
+    overflow: auto;
+  }
+
+  .influencer-text, .status, .instagramName{
+    display: inline-block;
+  }
+  
+  .influencer-text {
+    padding-left: 10px;
+    width: 84%;
+    height: 75px;
+    /* border: 3px solid red; */
+    vertical-align:top;
+    position:relative;
+  }
+  .dateAndMessage{
+    position:absolute;
+    bottom:0; 
+    font-size: 14px;
+    vertical-align:top;
+  }
+  .message{
+    font-size: 13px;
+    font-weight: 350;
+    color: #727171;
+    display: inline;
+  }
+  .date{
+    display: inline;
+  }
+  
+  .instagramAndStatus{
+    width: 100%;
+    /* border: 3px solid red; */
+  }
+  .instagramName{
+    color: gray;
+    font-size: 15px;
+  }
+  .status {
+    float: right;
+    font-size: 14px;
+  }
+  .claimed{
+    color: green;
+  }
+  .submit{
+    color: #FFC300;
+  }
+  .activate{
+    color: purple;
+  }
+  .influencer-photo{
+    padding: 5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
